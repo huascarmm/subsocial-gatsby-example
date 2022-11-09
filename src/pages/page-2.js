@@ -13,7 +13,7 @@ const SecondPage = ({data}) => (
 
     <div className="company-section">
       <h3>Worked at</h3>
-      {data.allMyNodeTypeSpace.edges.map(({ node }) => (
+      {data.allSpacesSubsocial.edges.map(({ node }) => (
         <div key={node.id}>
           <div>{node.content.name}</div>
           <div>{node.content.email}</div>
@@ -28,7 +28,7 @@ export const Head = () => <Seo title="Page two" />
 
 export const query = graphql`
   query {
-    allMyNodeTypeSpace {
+    allSpacesSubsocial {
       edges {
         node {
           id

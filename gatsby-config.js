@@ -21,7 +21,7 @@ module.exports = {
         substrateNodeUrl: `wss://para.subsocial.network`,
         ipfsNodeUrl: `https://app.subsocial.network/ipfs`,
         recommendedSpaceIds: ["1", "1001", "1002", "10316"],
-        //addressAccount: "3sD7b8HxT2rg8SNhgZZcgG3bSffVLq5drAvDqDfM8CJ6SU6x"
+        addressAccount: "3sD7b8HxT2rg8SNhgZZcgG3bSffVLq5drAvDqDfM8CJ6SU6x"
       },
     },
     {
